@@ -163,7 +163,7 @@ public class ThreeZeroOne extends AppCompatActivity {
                         }else {
                             p1CS = p1CS - length;
                             remaining1 = String.valueOf(p1CS);
-                            if (p1CS<2){
+                            if (p1CS==1){
                                 Toast.makeText(ThreeZeroOne.this, "Bust Score", Toast.LENGTH_SHORT).show();
                                 p1CS = p1CS + length;
                                 remaining1 = String.valueOf(p1CS);
@@ -207,7 +207,7 @@ public class ThreeZeroOne extends AppCompatActivity {
                         } else {
                             p2CS = p2CS - length;
                             remaining2 = String.valueOf(p2CS);
-                            if (p2CS<2){
+                            if (p2CS==1){
                                 Toast.makeText(ThreeZeroOne.this, "Bust Score", Toast.LENGTH_SHORT).show();
                                 p2CS = p2CS + length;
                                 remaining2 = String.valueOf(p2CS);
